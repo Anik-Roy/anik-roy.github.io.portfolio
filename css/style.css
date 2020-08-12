@@ -1,0 +1,88 @@
+body {
+    box-sizing: ;
+    margin: 0;
+    padding: 0;
+    font-family: 'Merriweather', 'Montserrat', 'Sacramento', serif, cursive, sans-serif;
+    background-color: #E4F9F5;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Sacramento', cursive;
+}
+
+p {
+    font-family: 'Merriweather', sans-serif;
+}
+
+hr {
+    width: 4%;
+    border: dotted white 10px;
+    border-bottom: none;
+}
+.banner-container {
+}
+
+.banner-col {
+}
+
+.banner-col h2, .banner-col p {
+    color: #4AB19A;
+}
+
+.navbar-container {
+    /* z-index: 1000; */
+}
+.about-section {
+}
+
+.about-section h2, .about-section h4, .about-section p {
+    color: #4AB19A;
+}
+
+.education-container {
+}
+
+.education-container h2 {
+    color: #4AB19A;
+}
+
+.circle {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    background-color: #4AB19A;
+}
+
+.project-container {
+}
+
+.project-container h2 {
+    color: #4AB19A;
+}
+
+.project-container h5 {
+    font-family: Merriweather, serif;
+}
+
+.form-container {
+}
+
+.form-container h2, .form-container p {
+    color: #4AB19A;
+}
+
+.inner-form {
+}
+
+.footer {
+    color: #4AB19A;
+}
+
+.footer .social i {
+    font-size: 25px;
+    color: #4AB19A;
+}
+
+.footer .social i:hover {
+    color: #099c7c;
+}
