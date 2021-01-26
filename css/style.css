@@ -28,7 +28,89 @@ hr {
 .banner-col h2, .banner-col p {
     color: #4AB19A;
 }
+@media (max-width:1000px) {
+    .banner-col h2 {
+        font-size: 72px;
+    }
+    .banner-col p {
+        font-size: 50px;
+    }
+    .about-section h2 {
 
+    }
+    .about-section h4 {
+
+    }
+    .about-section p {
+    
+    }
+    .education-container h2 {
+        color: #4AB19A;
+    }
+}
+@media (max-width:571px) {
+    .banner-col h2 {
+        font-size: 45px;
+    }
+    .banner-col p {
+        font-size: 30px;
+    }
+    .about-section h2 {
+
+    }
+    .about-section h4 {
+
+    }
+    .about-section p {
+    
+    }
+}
+@media (max-width:369px) {
+    .banner-col h2 {
+        font-size: 30px;
+    }
+    .banner-col p {
+        font-size: 20px;
+    }
+    .navbar-container {
+        margin-bottom: 0px!important;
+    }
+    .about-section {
+        padding-top: 10px!important;
+    }
+    .about-section h2 {
+        font-size: 30px;
+    }
+    .about-section h4 {
+        font-size: 25px;
+    }
+    .about-section p {
+    
+    }
+}
+@media (max-width:257px) {
+    .banner-col h2 {
+        font-size: 27px;
+    }
+    .banner-col p {
+        font-size: 18px;
+    }
+    .navbar-container {
+        margin-bottom: 0px!important;
+    }
+    .about-section {
+        padding-top: 10px!important;
+    }
+    .about-section h2 {
+        font-size: 30px;
+    }
+    .about-section h4 {
+        font-size: 25px;
+    }
+    .about-section p {
+    
+    }
+}
 .navbar-container {
     /* z-index: 1000; */
 }
