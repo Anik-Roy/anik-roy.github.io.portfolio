@@ -146,6 +146,49 @@ hr {
     font-family: Merriweather, serif;
 }
 
+.cards {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.my-card {
+    flex: 1 0 500px;
+    box-sizing: border-box;
+    margin: 1rem .25em;
+}
+
+.carousel-indicators li {
+    background-color: #999 !important;
+    background-color: rgba(70,70,70,.25) !important;
+}
+
+.carousel-indicators .active {
+    background-color: #444 !important;
+}
+
+.carouselExampleIndicators a {
+    color: black !important;
+}
+
+@media screen and (min-width: 40em) {
+    .my-card {
+       max-width: calc(50% -  1em);
+    }
+}
+ 
+@media screen and (min-width: 60em) {
+    .my-card {
+        max-width: calc(25% - 1em);
+    }
+}
+
+.truncate {
+    /* width: 250px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis; */
+}
+
 .form-container {
 }
 
